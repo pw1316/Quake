@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gas2masm", "gas2masm\gas2masm.vcxproj", "{D72B781C-8453-9E45-C411-7E8AB801E134}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinQuake", "WinQuake.vcxproj", "{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}"
@@ -11,34 +13,37 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
-		GL Debug|Win32 = GL Debug|Win32
-		GL Release|Win32 = GL Release|Win32
+		DebugGL|Win32 = DebugGL|Win32
 		Release|Win32 = Release|Win32
+		ReleaseGL|Win32 = ReleaseGL|Win32
 		Template|Win32 = Template|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D72B781C-8453-9E45-C411-7E8AB801E134}.Debug|Win32.ActiveCfg = Debug|Win32
 		{D72B781C-8453-9E45-C411-7E8AB801E134}.Debug|Win32.Build.0 = Debug|Win32
-		{D72B781C-8453-9E45-C411-7E8AB801E134}.GL Debug|Win32.ActiveCfg = Debug|Win32
-		{D72B781C-8453-9E45-C411-7E8AB801E134}.GL Debug|Win32.Build.0 = Debug|Win32
-		{D72B781C-8453-9E45-C411-7E8AB801E134}.GL Release|Win32.ActiveCfg = Release|Win32
-		{D72B781C-8453-9E45-C411-7E8AB801E134}.GL Release|Win32.Build.0 = Release|Win32
+		{D72B781C-8453-9E45-C411-7E8AB801E134}.DebugGL|Win32.ActiveCfg = Debug|Win32
+		{D72B781C-8453-9E45-C411-7E8AB801E134}.DebugGL|Win32.Build.0 = Debug|Win32
 		{D72B781C-8453-9E45-C411-7E8AB801E134}.Release|Win32.ActiveCfg = Release|Win32
 		{D72B781C-8453-9E45-C411-7E8AB801E134}.Release|Win32.Build.0 = Release|Win32
+		{D72B781C-8453-9E45-C411-7E8AB801E134}.ReleaseGL|Win32.ActiveCfg = Release|Win32
+		{D72B781C-8453-9E45-C411-7E8AB801E134}.ReleaseGL|Win32.Build.0 = Release|Win32
 		{D72B781C-8453-9E45-C411-7E8AB801E134}.Template|Win32.ActiveCfg = Release|Win32
 		{D72B781C-8453-9E45-C411-7E8AB801E134}.Template|Win32.Build.0 = Release|Win32
 		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.Debug|Win32.ActiveCfg = Debug|Win32
 		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.Debug|Win32.Build.0 = Debug|Win32
-		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.GL Debug|Win32.ActiveCfg = GL Debug|Win32
-		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.GL Debug|Win32.Build.0 = GL Debug|Win32
-		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.GL Release|Win32.ActiveCfg = GL Release|Win32
-		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.GL Release|Win32.Build.0 = GL Release|Win32
+		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.DebugGL|Win32.ActiveCfg = DebugGL|Win32
+		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.DebugGL|Win32.Build.0 = DebugGL|Win32
 		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.Release|Win32.ActiveCfg = Release|Win32
 		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.Release|Win32.Build.0 = Release|Win32
+		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.ReleaseGL|Win32.ActiveCfg = ReleaseGL|Win32
+		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.ReleaseGL|Win32.Build.0 = ReleaseGL|Win32
 		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.Template|Win32.ActiveCfg = Template|Win32
 		{B5C8A0F3-2270-E48F-1812-83ACC33CE1A5}.Template|Win32.Build.0 = Template|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80CBD71A-E22C-45F9-A388-0923B40A305C}
 	EndGlobalSection
 EndGlobal
