@@ -20,6 +20,7 @@ DebugGL/
 ReleaseGL/
 GLDebug/
 GLRelease/
+Id1/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
